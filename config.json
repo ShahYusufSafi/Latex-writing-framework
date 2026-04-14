@@ -1,0 +1,10 @@
+{
+  "title": "Stochastic processes from an engineer POV",
+  "author": "Shah Yusuf Safi",
+  "date": "\\today",
+  "documentclass": "article",
+  "class_options": "11pt,letterpaper",
+  "geometry_options": "margin=1in",
+  "packages": ["amsmath", "amssymb", "graphicx", "hyperref"],
+  "bibliography": "bibliography.bib"
+}

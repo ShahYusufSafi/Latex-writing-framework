@@ -1,0 +1,57 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Main document
+\input{meta.tex}
+\input{preamble.tex}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    Many sensing devices rely on transduction mechanisms that convert mechanical deformation into measurable electrical signals. 
+One important example is the piezoresistive effect, in which the electrical conductivity of a material varies with mechanical strain. 
+This coupling between mechanical deformation and electrical conduction provides a natural setting for the study of multiphysics systems.
+
+    This thesis develops a mathematical model describing conductive materials whose electrical conductivity depends on the underlying mechanical strain field. 
+The mechanical behavior is described by the equations of elasticity, while the electrical potential satisfies a conductivity equation with strain-dependent coefficients. 
+The resulting formulation leads to a nonlinear coupled system of partial differential equations of the form
+
+\[
+\nabla \cdot \boldsymbol{\sigma}(u) = 0, \qquad
+\nabla \cdot (\sigma(\varepsilon(u)) \nabla V) = 0,
+\]
+
+where $ u $ denotes the displacement field, $ V $ the electrical potential, and the conductivity coefficient depends on the strain tensor $ \varepsilon(u) $.
+
+    The primary objective of this work is to investigate this coupled electromechanical system from a computational modeling perspective. Emphasis is placed on the formulation and
+analysis of the underlying multiphysics model, as well as on the development of computational strategies for approximating its solutions. In addition to classical numerical techniques, 
+the study explores hybrid approaches that combine physics-based modeling with data-driven approximation methods to represent complex strain–conductivity relationships.
+
+    The proposed framework aims to provide insight into strain-dependent electrical behavior in deformable media and contributes to the broader study of nonlinear 
+multiphysics PDE systems arising in sensing and material modeling.
+
+The results of this study are expected to provide insight into strain-dependent electrical behavior in deformable materials and contribute to the design and analysis of piezoresistive 
+systems. Potential applications include structural health monitoring, wearable electronics, and soft robotics.
+
+\end{abstract}
+
+\tableofcontents
+
+% Sections
+\input{sections/intro.tex}
+
+\input{sections/Problem.tex}
+
+\input{sections/Mathematical Model.tex}
+
+\input{sections/ResearchState.tex}
+
+\input{sections/Method.tex}
+
+\input{sections/outcome.tex}
+
+
+\clearpage
+\printbibliography
+
+\end{document}
