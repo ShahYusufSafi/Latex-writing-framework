@@ -17,6 +17,20 @@ python .\generate_meta.py config.json
 .\build.ps1
 ```
 
+- For Linux Os: 
+```powershell
+chmod +x build.sh
+# then: 
+./build.sh
+```
+- Make sure you have latexmk and biber and other files installes:
+
+```powershell
+sudo apt updata
+# then
+sudo apt install -y latexmk texlive-latex-exta biber
+```
+- remember that now everything is case- sensitive , make sure to check for exact formats, capital cases, and the like.
 Files of interest:
 - `config.json`: project metadata and packages
 - `generate_meta.py`: turns `config.json` into `meta.tex`
@@ -25,7 +39,6 @@ Files of interest:
 - `bibliography.bib`: sample bib file
 - `build.ps1`: Windows build script
 
-If you want CI or Makefile support later, tell me and I can add it.
 
 
 ### Latex language cheetsheet
