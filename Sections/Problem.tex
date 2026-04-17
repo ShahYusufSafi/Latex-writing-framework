@@ -8,9 +8,9 @@ Its electrical resistance is given by
     R = \frac{\rho L}{A}.
 \end{equation}
 
-Under mechanical loading, both geometry and material properties change. In particular, 
-the length, area, and resistivity become functions of deformation, making resistance 
-dependent on the mechanical state.
+Under mechanical loading, both the geometry and the intrinsic material properties of the conductor may change. 
+In particular, the length, cross-sectional area, and resistivity become functions of deformation, 
+making the resistance dependent on the mechanical state.
 
 Using Ohm's law,
 
@@ -18,7 +18,7 @@ Using Ohm's law,
     R = \frac{V}{I},
 \end{equation}
 
-and expressing voltage and current as
+and expressing voltage and current in terms of field quantities,
 
 \begin{equation}
     V = EL, \qquad I = JA,
@@ -30,30 +30,33 @@ we obtain
     \frac{EL}{JA} = \frac{\rho L}{A}.
 \end{equation}
 
-Canceling geometric terms yields the local relation
+Canceling the geometric factors leads to the local relation
 
 \begin{equation}
     \mathbf{J} = \sigma \mathbf{E}, \qquad \sigma = \frac{1}{\rho},
 \end{equation}
 
-where $\mathbf{E} = -\nabla V$.
+where $\mathbf{E} = -\nabla V$ is the electric field. 
+This formulation expresses Ohm’s law in a local (continuum) form, independent of the specific geometry.
 
-Combining this with charge conservation in steady state,
+Combining this with charge conservation in the steady state,
 
 \begin{equation}
     \nabla \cdot \mathbf{J} = 0,
 \end{equation}
 
-leads to the conductivity equation
+yields the conductivity equation
 
 \begin{equation}
     \nabla \cdot (\sigma \nabla V) = 0.
 \end{equation}
 
-The resulting equation is an elliptic PDE in divergence form, belonging to a well-studied class 
-of second-order equations in the theory of partial differential equations \cite{evans}.
+This equation provides a continuum description of electrical conduction in materials, 
+where the conductivity $\sigma$ may vary spatially. It belongs to the class of elliptic partial differential equations 
+in divergence form \cite{evans}.
 
-In piezoresistive materials, the conductivity depends on strain:
+In piezoresistive materials, the key feature is that the conductivity is no longer constant, but depends on the mechanical deformation of the material. 
+At a macroscopic level, this dependence can be expressed as
 
 \begin{equation}
     \sigma = \sigma(\varepsilon(u)),
@@ -65,16 +68,21 @@ where the strain tensor is given by\footnote{The strain tensor is defined as the
     \varepsilon(u) = \frac{1}{2}(\nabla u + \nabla u^T).
 \end{equation}
 
-This introduces a nonlinear coupling between mechanical deformation and electrical conduction.
+This relation can be interpreted as an effective description of how mechanical deformation influences electrical transport. 
+Physically, the dependence of conductivity on strain originates from changes in the underlying electronic structure and carrier transport properties, 
+which are affected by lattice deformation.
 
+The resulting model therefore introduces a nonlinear coupling between mechanical deformation and electrical conduction, 
+linking continuum mechanics with electronic transport in a unified framework.
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{Images/model1.png}
-    \caption{Change of geometric and material properties under mechanical deformation. $L$ denotes the length of the conductor, $W$ its characteristic width, 
-and $A = W^2$ the cross-sectional area (assuming a square cross-section). 
-The material property $\rho$ represents the electrical resistivity, which may vary under mechanical deformation.
-    Both the dimensions and the resistivity of the conductor vary, leading to a strain-dependent resistance.}
+    \caption{Change of geometric and material properties under mechanical deformation. 
+    $L$ denotes the length of the conductor, $W$ its characteristic width, and $A = W^2$ the cross-sectional area (assuming a square cross-section). 
+    The material property $\rho$ represents the electrical resistivity, which may vary under mechanical deformation. 
+    Both geometric changes and intrinsic material variations contribute to the overall change in resistance.}
 \end{figure}
 
-This illustrates that both geometric deformation and intrinsic material changes contribute to the variation of resistance.
+This illustrates that both geometric deformation and intrinsic material changes contribute to the variation of resistance, 
+providing the basis for modeling the piezoresistive effect at the continuum level.

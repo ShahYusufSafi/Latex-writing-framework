@@ -1,30 +1,43 @@
 \section{State of Research}
 
-The piezoresistive effect has been extensively studied \cite{smith1954,doll2013} in experimental and engineering contexts, 
-particularly in sensor design and microelectromechanical systems (MEMS). Classical works established the fundamental 
-behavior of strain-dependent conductivity in semiconductors, while more recent research focuses on device optimization 
-and fabrication techniques.
+The piezoresistive effect has been extensively investigated in both experimental and engineering contexts, 
+particularly in the development of semiconductor-based sensors and microelectromechanical systems (MEMS) \cite{smith1954,doll2013}. 
+Early studies established the strong dependence of electrical conductivity on mechanical strain in semiconductors such as silicon, 
+highlighting the role of crystal structure and carrier transport in determining the sensitivity of the effect.
 
-However, most existing approaches treat the electromechanical coupling in an application-specific manner. 
-From a mathematical perspective, coupled PDE systems with state-dependent coefficients are well understood in general, 
-but their systematic application to piezoresistive materials remains limited. This motivates the development of a 
-unified computational framework capable of capturing the underlying multiphysics behavior.
+From a materials physics perspective, piezoresistivity originates from strain-induced modifications of the electronic structure 
+and charge transport properties. In semiconductors, mechanical deformation can alter band structure, carrier mobility, and scattering mechanisms, 
+leading to significant changes in conductivity. These effects have been studied using both phenomenological models and more detailed 
+electronic transport theories.
+
+In practical applications, however, the coupling between mechanical deformation and electrical response is often modeled in a simplified 
+and application-specific manner, where the dependence of conductivity on strain is introduced empirically. While such approaches are effective 
+for device design and optimization, they do not always provide a transparent connection between the underlying physical mechanisms and the 
+resulting macroscopic behavior.
+
+At the continuum level, models based on partial differential equations are widely used to describe both elasticity and electrical conduction. 
+However, the integration of strain-dependent transport properties into such models is typically treated in a phenomenological way, and a 
+systematic computational framework that bridges physical insight and continuum modeling remains an open challenge.
+
+Such a framework is particularly relevant for understanding emerging materials and 
+devices where electromechanical coupling plays a central role.
 
 Based on these considerations, the proposed study is guided by the following research questions:
 
 \begin{itemize}
-    \item How can strain-dependent conductivity be incorporated into a consistent continuum PDE model?
-    \item How does mechanical deformation influence the distribution of electrical potential?
-    \item What are the effects of nonlinear coupling on system behavior and sensitivity?
-    \item To what extent can data-driven approaches improve the modeling of $\sigma(\varepsilon)$?
+    \item How can strain-dependent conductivity be incorporated into a consistent continuum model of electromechanical coupling?
+    \item How does mechanical deformation influence the spatial distribution of electrical potential in conductive materials?
+    \item What qualitative and quantitative effects arise from the nonlinear coupling between mechanics and electrical transport?
+    \item To what extent can flexible (e.g. data-driven or physics-informed) approaches improve the modeling of $\sigma(\varepsilon)$?
 \end{itemize}
 
 To address these questions, the research will be structured around the following key components:
 
 \begin{itemize}
-    \item Introduction and physical background
-    \item Derivation of the coupled electromechanical model
-    \item Analysis of the nonlinear PDE system
+    \item Physical background and modeling assumptions
+    \item Formulation of the coupled electromechanical model
+    \item Analysis of the nonlinear system
     \item Computational methods and numerical experiments
-    \item Results and discussion
+    \item Interpretation of results in the context of material behavior
 \end{itemize}
+

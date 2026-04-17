@@ -1,17 +1,30 @@
 \section{Mathematical Model}
 
-The coupled electromechanical system is described by
+Based on the physical considerations discussed above, the coupled electromechanical behavior 
+can be described at the continuum level by a system of partial differential equations.
+
+The mechanical response of the material is governed by the equations of elasticity,
 
 \begin{equation}
     \nabla \cdot \boldsymbol{\sigma}(u) = 0,
 \end{equation}
 
+where $u$ denotes the displacement field and $\boldsymbol{\sigma}(u)$ is the stress tensor, 
+which depends on the strain.
+
+The electrical response is described by the conductivity equation,
 
 \begin{equation}
     \nabla \cdot \left( \sigma(\varepsilon(u)) \nabla V \right) = 0,
 \end{equation}
 
-where $u$ is the displacement field and $V$ is the electrical potential.
+where $V$ is the electrical potential and the conductivity $\sigma$ depends on the strain tensor 
+$\varepsilon(u)$.
 
-This system captures the interaction between elasticity and electrical conduction 
-in a continuum setting.
+Together, these equations define a coupled system in which mechanical deformation influences 
+electrical conduction through the strain-dependent conductivity. From a physical perspective, 
+this coupling represents an effective description of how deformation alters the underlying 
+electronic transport properties of the material.
+
+This formulation provides the basis for computational modeling of the piezoresistive effect 
+within a continuum framework.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.14)  14 APR 2026 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.14)  17 APR 2026 15:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -746,15 +746,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Images/phenomenon.jpeg, id=48, 2649.9pt x 1003.75pt>
 File: Images/phenomenon.jpeg Graphic file (type jpg)
 <use Images/phenomenon.jpeg>
-Package pdftex.def Info: Images/phenomenon.jpeg  used on input line 15.
+Package pdftex.def Info: Images/phenomenon.jpeg  used on input line 16.
 (pdftex.def)             Requested size: 234.8775pt x 88.95515pt.
-) (./Sections/Problem.tex [2 <./Images/phenomenon.jpeg>]
-<Images/model1.png, id=61, 2940.9875pt x 1003.75pt>
+) (./Sections/Problem.tex [2 <./Images/phenomenon.jpeg>] [3]
+<Images/model1.png, id=79, 2940.9875pt x 1003.75pt>
 File: Images/model1.png Graphic file (type png)
 <use Images/model1.png>
-Package pdftex.def Info: Images/model1.png  used on input line 73.
+Package pdftex.def Info: Images/model1.png  used on input line 80.
 (pdftex.def)             Requested size: 328.82707pt x 112.22012pt.
-) (./Sections/Mathematical Model.tex) (./Sections/ResearchState.tex [3]) (./Sections/Method.tex [4 <./Images/model1.png>]) (./Sections/outcome.tex) [5] [6
+) (./Sections/Mathematical Model.tex) (./Sections/ResearchState.tex [4 <./Images/model1.png>]) (./Sections/Method.tex [5]
+<Images/1d_cond.png, id=96, 1541.76pt x 770.88pt>
+File: Images/1d_cond.png Graphic file (type png)
+<use Images/1d_cond.png>
+Package pdftex.def Info: Images/1d_cond.png  used on input line 16.
+(pdftex.def)             Requested size: 352.31625pt x 176.15768pt.
+) (./Sections/outcome.tex [6 <./Images/1d_cond.png>]) [7] [8
 
 ] (./main.aux)
  ***********
@@ -768,18 +774,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19426 strings out of 476182
- 336320 string characters out of 5795595
- 1935975 words of memory out of 5000000
- 41133 multiletter control sequences out of 15000+600000
+ 19434 strings out of 476182
+ 336452 string characters out of 5795595
+ 1936975 words of memory out of 5000000
+ 41138 multiletter control sequences out of 15000+600000
  574932 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  81i,8n,84p,1165b,1220s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/codespace/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (6 pages, 349098 bytes).
+Output written on main.pdf (8 pages, 443537 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

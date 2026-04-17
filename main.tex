@@ -8,31 +8,27 @@
 \maketitle
 
 \begin{abstract}
-    Many sensing devices rely on transduction mechanisms that convert mechanical deformation into measurable electrical signals. 
-One important example is the piezoresistive effect, in which the electrical conductivity of a material varies with mechanical strain. 
-This coupling between mechanical deformation and electrical conduction provides a natural setting for the study of multiphysics systems.
+Many sensing devices rely on transduction mechanisms that convert mechanical deformation into measurable electrical signals.
+A prominent example is the piezoresistive effect, where the electrical conductivity of a material changes under mechanical strain.
 
-    This thesis develops a mathematical model describing conductive materials whose electrical conductivity depends on the underlying mechanical strain field. 
-The mechanical behavior is described by the equations of elasticity, while the electrical potential satisfies a conductivity equation with strain-dependent coefficients. 
-The resulting formulation leads to a nonlinear coupled system of partial differential equations of the form
+This phenomenon originates from modifications in the underlying electronic transport properties, which can be influenced by lattice deformation, carrier mobility variations, and, in certain regimes, tunneling effects.
 
-\[
+This thesis aims to develop a computational framework for modeling strain-dependent conductivity in deformable materials by connecting physical mechanisms at different scales.
+At the continuum level, the mechanical behavior is described by the equations of elasticity, while the electrical response is governed by a conductivity equation with strain-dependent coefficients.
+This leads to a coupled system of partial differential equations of the form
+$$
 \nabla \cdot \boldsymbol{\sigma}(u) = 0, \qquad
-\nabla \cdot (\sigma(\varepsilon(u)) \nabla V) = 0,
-\]
+\nabla \cdot (\sigma(\varepsilon(u)) \nabla V) = 0$$
+,where $u$ denotes the displacement field, $V$ the electrical potential, and $\sigma(\varepsilon(u))$ represents an effective conductivity capturing the influence of mechanical deformation.
 
-where $ u $ denotes the displacement field, $ V $ the electrical potential, and the conductivity coefficient depends on the strain tensor $ \varepsilon(u) $.
+The conductivity function is treated as an effective quantity, allowing for future incorporation of transport models derived from electronic structure calculations.
 
-    The primary objective of this work is to investigate this coupled electromechanical system from a computational modeling perspective. Emphasis is placed on the formulation and
-analysis of the underlying multiphysics model, as well as on the development of computational strategies for approximating its solutions. In addition to classical numerical techniques, 
-the study explores hybrid approaches that combine physics-based modeling with data-driven approximation methods to represent complex strain–conductivity relationships.
+Rather than treating this dependence purely phenomenologically, the work discusses how such constitutive relations can be interpreted in terms of underlying electronic transport mechanisms, providing a physically motivated link between microscopic behavior and macroscopic modeling.
 
-    The proposed framework aims to provide insight into strain-dependent electrical behavior in deformable media and contributes to the broader study of nonlinear 
-multiphysics PDE systems arising in sensing and material modeling.
+From a computational perspective, the study focuses on the formulation and numerical solution of the coupled system, with particular emphasis on flexible representations of the strain–conductivity relationship.
+This includes the exploration of hybrid approaches that combine physics-based modeling with data-driven approximations.
 
-The results of this study are expected to provide insight into strain-dependent electrical behavior in deformable materials and contribute to the design and analysis of piezoresistive 
-systems. Potential applications include structural health monitoring, wearable electronics, and soft robotics.
-
+The proposed framework aims to provide a consistent and extensible approach for studying electromechanical coupling in materials, with potential applications in sensing technologies, flexible electronics, and structural health monitoring
 \end{abstract}
 
 \tableofcontents

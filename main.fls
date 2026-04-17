@@ -301,6 +301,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT ./Sections/Method.tex
 INPUT ./Sections/Method.tex
 INPUT Sections/Method.tex
+INPUT ./Images/1d_cond.png
+INPUT ./Images/1d_cond.png
+INPUT ./Images/1d_cond.png
+INPUT ./Images/1d_cond.png
+INPUT ./Images/1d_cond.png
 INPUT ./Sections/outcome.tex
 INPUT ./Sections/outcome.tex
 INPUT Sections/outcome.tex
