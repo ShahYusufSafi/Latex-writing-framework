@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1776550461.41633 "main.bcf" "main.bbl" "main" 1776550946.14099 0
+["biber main"] 1776551661.64456 "main.bcf" "main.bbl" "main" 1776551818.3737 0
   "bibliography.bib" 1776548422.23166 667 4aa3906d9ca3edfff8e7ca51a6cf649b ""
-  "main.bcf" 1776550946.02864 108337 150d1af33af69e5d4e89f90a0fc3fccc "pdflatex"
+  "main.bcf" 1776551818.29763 108337 150d1af33af69e5d4e89f90a0fc3fccc "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1776550944.98885 "/workspaces/Latex-writing-framework/main.tex" "main.pdf" "main" 1776550946.14131 0
+["pdflatex"] 1776551816.98674 "/workspaces/Latex-writing-framework/main.tex" "main.pdf" "main" 1776551818.37402 0
   "/etc/texmf/web2c/texmf.cnf" 1776196392.44076 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/codespace/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1776196973.40077 12644 a1f5bceacb0c1a521af192c03d8b7c89 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -56,6 +56,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb" 1248133631 36912 b448ef9ad9d7228ec3c6e71005136d55 ""
@@ -160,13 +161,13 @@
   "Sections/ResearchState.tex" 1776550459.41365 2957 3c6d3d8ab136150287b9b83886df9027 ""
   "Sections/intro.tex" 1776549523.76365 2871 e2c62f01809b710075c625b953d1fcb4 ""
   "Sections/outcome.tex" 1776550944.10664 1493 2ba0bbf8ba5cea27c440ca8eda62fafc ""
-  "Sections/problem Articulation.tex" 1776549718.54465 2491 835a75ed1345cf9b475d1c2caba5b3c5 ""
-  "main.aux" 1776550946.02664 3137 3f81106deee5980c689b49b345640a66 "pdflatex"
-  "main.bbl" 1776550462.12365 4686 594deb642964cd1f42189613b6604217 "biber main"
-  "main.out" 1776550946.02764 955 d44c079f0757fb4a463059a83d07330d "pdflatex"
-  "main.run.xml" 1776550946.02964 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
+  "Sections/problem Articulation.tex" 1776551815.44963 3849 b9ddcbcbaa650d73b99521ba1c4578b7 ""
+  "main.aux" 1776551818.29463 3137 07a5bd15e5ccb63ff18344f49d802d03 "pdflatex"
+  "main.bbl" 1776551662.32364 4686 594deb642964cd1f42189613b6604217 "biber main"
+  "main.out" 1776551818.29463 955 d44c079f0757fb4a463059a83d07330d "pdflatex"
+  "main.run.xml" 1776551818.29863 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
   "main.tex" 1776550031.44665 3053 92901a8bf911229eabc579aad05ce099 ""
-  "main.toc" 1776550946.02964 518 d53c16e507bbdd9520407aebb2e323be "pdflatex"
+  "main.toc" 1776551818.29863 518 f0d914de39bf6a0538bea43953cf2ff0 "pdflatex"
   "meta.tex" 1776548901.26666 410 65e2d051cf34f420e67c75e3c0416667 ""
   "preamble.tex" 1776193653.16272 1374 474a120ed88cb6073746a9bb8c6a782e ""
   (generated)
