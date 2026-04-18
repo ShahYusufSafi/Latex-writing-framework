@@ -20,25 +20,25 @@ as variations in voltage or resistance.
 The piezoresistive effect, first observed by William Thomson (Lord Kelvin) 
 in the 19th century and later developed for semiconductors by Bardeen, Shockley, and Smith \cite{smith1954}, 
 describes the dependence of electrical conductivity on mechanical deformation. 
-At a microscopic level, this behavior can be attributed to changes in the electronic structure 
-and carrier transport mechanisms induced by strain, which modify quantities such as mobility 
-and effective mass.
+At a microscopic level, this behavior originates from strain-induced modifications of the electronic structure 
+and carrier transport mechanisms. In particular, quantities such as band energies, effective masses, and 
+scattering processes are affected by deformation, which in turn influence carrier mobility and conductivity \cite{hamaguchi}.
 
 There exists a wide spectrum of engineering realizations of the piezoresistive effect, 
 including strain gauges, pressure sensors, microelectromechanical systems (MEMS), 
 cantilever-based sensing devices, and flexible or wearable systems \cite{doll2013}. 
 Although these systems differ in geometry, material composition, and boundary conditions, 
-they share a common physical origin rooted in the interaction between mechanical deformation 
-and electronic transport.
+they can be interpreted as different realizations of the same underlying electromechanical coupling.
 
 Despite extensive technological development and optimization, the modeling of this coupling 
-is often performed in a phenomenological and application-specific manner, where the dependence 
+is often carried out in a phenomenological and application-specific manner, where the dependence 
 of conductivity on strain is introduced empirically. From a computational materials perspective, 
-this raises the question of how such macroscopic descriptions can be related to the underlying 
-physical mechanisms governing charge transport.
+this raises a more fundamental question: how can such macroscopic descriptions be related in a 
+consistent way to the underlying physical mechanisms governing electronic transport?
 
-This work aims to address this by developing a computational framework that captures the 
-electromechanical coupling at the continuum level, while maintaining a clear connection to the 
-underlying physical processes. In this context, the continuum model serves as an effective 
-description of strain-dependent conductivity, providing a bridge between microscopic transport 
-phenomena and macroscopic device behavior.
+The present work approaches this problem by developing a computational framework in which 
+the electromechanical coupling is described at the continuum level, while maintaining a clear 
+connection to the underlying transport physics. In this setting, the continuum model serves as 
+an effective description of strain-dependent conductivity, acting as a bridge between microscopic 
+electronic behavior and macroscopic response.
+

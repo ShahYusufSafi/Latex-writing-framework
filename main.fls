@@ -263,14 +263,17 @@ INPUT ./Images/phenomenon.jpeg
 INPUT ./Images/phenomenon.jpeg
 INPUT ./Images/phenomenon.jpeg
 INPUT ./Images/phenomenon.jpeg
-INPUT ./Sections/Problem.tex
-INPUT ./Sections/Problem.tex
-INPUT Sections/Problem.tex
+INPUT ./Sections/problem Articulation.tex
+INPUT ./Sections/problem Articulation.tex
+INPUT Sections/problem Articulation.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT ./Sections/Problem Statement.tex
+INPUT ./Sections/Problem Statement.tex
+INPUT Sections/Problem Statement.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm

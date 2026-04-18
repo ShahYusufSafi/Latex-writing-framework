@@ -66,6 +66,32 @@
       \field{title}{Partial Differential Equations}
       \field{year}{2010}
     \endentry
+    \entry{hamaguchi}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4824d28e0ca8d492fa0964dfc1cea8c5}{%
+           family={Hamaguchi},
+           familyi={H\bibinitperiod},
+           given={Chihiro},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4824d28e0ca8d492fa0964dfc1cea8c5}
+      \strng{fullhash}{4824d28e0ca8d492fa0964dfc1cea8c5}
+      \strng{bibnamehash}{4824d28e0ca8d492fa0964dfc1cea8c5}
+      \strng{authorbibnamehash}{4824d28e0ca8d492fa0964dfc1cea8c5}
+      \strng{authornamehash}{4824d28e0ca8d492fa0964dfc1cea8c5}
+      \strng{authorfullhash}{4824d28e0ca8d492fa0964dfc1cea8c5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Fourth}
+      \field{series}{Graduate Texts in Physics}
+      \field{title}{Basic Semiconductor Physics}
+      \field{year}{2017}
+    \endentry
     \entry{smith1954}{article}{}
       \name{author}{1}{}{%
         {{hash=dfaa2891f7cc749f19c80b029e820fd7}{%

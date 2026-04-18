@@ -1,4 +1,3 @@
-
 \section{Problem Statement and Motivation}
 
 Consider a conductive element with length $L$, cross-sectional area $A$, and resistivity $\rho$. 
@@ -30,14 +29,15 @@ we obtain
     \frac{EL}{JA} = \frac{\rho L}{A}.
 \end{equation}
 
-Canceling the geometric factors leads to the local relation
+Canceling the geometric factors $L$ and $A$ leads to the local relation
 
 \begin{equation}
     \mathbf{J} = \sigma \mathbf{E}, \qquad \sigma = \frac{1}{\rho},
 \end{equation}
 
 where $\mathbf{E} = -\nabla V$ is the electric field. 
-This formulation expresses Ohm’s law in a local (continuum) form, independent of the specific geometry.
+This formulation expresses Ohm’s law in a local (continuum) form, independent of the specific geometry 
+and applicable to spatially varying fields.
 
 Combining this with charge conservation in the steady state,
 
@@ -69,11 +69,12 @@ where the strain tensor is given by\footnote{The strain tensor is defined as the
 \end{equation}
 
 This relation can be interpreted as an effective description of how mechanical deformation influences electrical transport. 
-Physically, the dependence of conductivity on strain originates from changes in the underlying electronic structure and carrier transport properties, 
-which are affected by lattice deformation.
+From a physical perspective, the dependence of conductivity on strain originates from strain-induced modifications of the electronic structure 
+and carrier transport properties, which are affected by lattice deformation \cite{hamaguchi}.
 
-The resulting model therefore introduces a nonlinear coupling between mechanical deformation and electrical conduction, 
-linking continuum mechanics with electronic transport in a unified framework.
+The resulting model therefore introduces a nonlinear coupling between mechanical deformation and electrical conduction: 
+the mechanical field $u$ determines the strain $\varepsilon(u)$, which modifies the conductivity $\sigma$, and this in turn affects 
+the electrical potential $V$ through the conductivity equation.
 
 \begin{figure}[htbp]
     \centering
@@ -85,4 +86,4 @@ linking continuum mechanics with electronic transport in a unified framework.
 \end{figure}
 
 This illustrates that both geometric deformation and intrinsic material changes contribute to the variation of resistance, 
-providing the basis for modeling the piezoresistive effect at the continuum level.
+providing the basis for modeling the piezoresistive effect within a continuum framework.

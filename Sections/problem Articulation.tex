@@ -1,0 +1,33 @@
+% ================================
+% PROBLEM ARTICULATION
+% ================================
+\section{Problem Articulation}
+
+At the continuum level, electrical conduction in a deformable material can be described 
+by a conductivity equation in which the electrical conductivity depends on the local mechanical strain. 
+Such models are widely used in engineering applications and can be solved efficiently using numerical methods. 
+However, the central quantity in this description, namely the strain-dependent conductivity $\sigma(\varepsilon)$, 
+is often introduced phenomenologically, without an explicit connection to the underlying material physics.
+
+From a materials physics perspective, this raises a fundamental question: 
+how does mechanical deformation at the atomic scale translate into a change in macroscopic electrical conductivity?
+
+In semiconductors, strain modifies the crystal structure and therefore the electronic band structure of the material. 
+This leads to changes in quantities such as band energies, effective masses, and carrier velocities. 
+As a consequence, the transport properties of charge carriers are altered, affecting mobility and electrical conductivity. 
+These mechanisms are described in semiconductor theory through band-structure analysis and transport models 
+such as the semiclassical Boltzmann transport equation \cite{hamaguchi}.
+
+This observation suggests a natural multiscale structure of the problem. 
+At the microscopic level, strain influences the electronic structure of the material. 
+At the transport level, the modified electronic structure determines carrier dynamics and effective conductivity. 
+At the continuum level, this conductivity enters as a constitutive parameter in the electrical conduction equation.
+
+The core challenge of this work is therefore to connect these levels in a computationally consistent way. 
+Rather than treating $\sigma(\varepsilon)$ purely as a fitting function, the goal is to interpret it as an effective quantity 
+that reflects underlying electronic and transport mechanisms, while remaining suitable for use in continuum simulations.
+
+This perspective allows the continuum model to serve not only as a numerical tool, but also as a bridge between 
+microscopic physical processes and macroscopic device behavior.
+
+In particular, this framework enables the incorporation of physically informed or data-driven constitutive relations, depending on the level of detail available for the underlying material.
